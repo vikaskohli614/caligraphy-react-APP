@@ -1,0 +1,137 @@
+ .note {
+     position: relative;
+     bottom: 345px;
+ }
+
+ .notebtn {
+     position: relative;
+     left: 270px;
+     top: 50px;
+ }
+
+ .noteul1 {
+     position: relative;
+     top: 75px;
+     margin-left: 256px;
+     font-size: 17px;
+ }
+
+ .btn1 {
+     border: none;
+     border-radius: 10px;
+     font-size: 20px;
+     letter-spacing: .2rem;
+     height: 45px;
+     width: 100px;
+     left: 0px;
+ }
+
+ .lefftt {
+     margin-right: 166vh;
+ }
+
+ .mot {
+     text-align: center;
+     position: relative;
+     top: 100px;
+     font-size: 35px;
+     font-weight: 600;
+ }
+
+ .marrjin {
+     margin-top: 100px;
+ }
+
+ .maarjinleft {
+     margin-left: 100px;
+ }
+
+ .maarjinleft2 {
+     margin-left: 250px;
+ }
+
+ .noteimg img {
+     width: 150px;
+     height: 150px;
+     border-radius: 20px;
+ }
+
+ .ravi {
+     position: relative;
+     margin-left: 360px;
+     top: 130px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .de {
+     position: relative;
+     margin-left: 575px;
+     top: 85px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .palav {
+     position: relative;
+     margin-left: 785px;
+     top: 40px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .narayan {
+     position: relative;
+     margin-left: 995px;
+     top: -6px;
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .sub {
+     text-align: center;
+     font-size: 25px;
+     font-weight: 500;
+     color: black;
+ }
+
+ .wpts {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 600;
+     color: black;
+ }
+
+ .noteul2 {
+     position: relative;
+     margin-left: 256px;
+     font-size: 17px;
+ }
+
+ .sttl {
+     text-align: center;
+     font-size: 21px;
+ }
+
+ .pstwks {
+     text-align: center;
+     font-size: 50px;
+     font-weight: 600;
+ }
+
+ .sdtf {
+     text-align: center;
+     font-size: 21px;
+     font-weight: 600;
+ }
+
+ .omcw {
+     position: relative;
+     margin-left: 70px;
+     font-size: 17px;
+     color: black;
+ }
+
+ .marjinn {
+     margin-top: 110vh;
+ }

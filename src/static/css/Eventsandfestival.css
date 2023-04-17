@@ -1,0 +1,31 @@
+.bground_image{
+    /* background-image: url('../images/bgimagess.png') ; */
+    background-size: 240%;
+    background-color: #080f11;
+    background-repeat: no-repeat;
+    min-height: 370vh;
+    /* max-height: 200vh; */
+    position: sticky;
+}
+.imageshighh{
+    width: 65vh;
+    height: 42vh;
+    border-radius: 20px;
+    /* left: 30px; */
+    margin-left: -12px;
+}
+.sponnn1 {
+    /* background-color: rgb(54, 53, 53); */
+    height: 75vh;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 54px;
+    /* border-radius: 20px; */
+    top: 30px;
+  }
+.texxt{
+    margin-right: 20vh;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+}

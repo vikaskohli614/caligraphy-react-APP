@@ -1,0 +1,31 @@
+.borderredo{
+    border-radius: 20px;
+}
+.mode h2{
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.mode h2::before{
+    position: absolute;
+    content: '';
+    left: 90vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+     animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+}
+@keyframes slide{
+    from { background-position: 0 0; }
+    to { background-position: -200px 0; }
+}
+.Headinds{
+    font-weight: 700;
+}

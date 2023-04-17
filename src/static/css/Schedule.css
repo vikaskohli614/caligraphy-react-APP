@@ -1,0 +1,36 @@
+.backgounds{
+    /* background-image: url('../images/background.jpg'); */
+    background-size: 100%;
+    /* background-color: grey; */
+    background-repeat: no-repeat;
+    min-height: 100%;
+    max-height: none;
+    position: relative;
+
+}
+.rowess{
+    width: 50vh;
+    height: 50vh;
+}
+.imgaesaas{
+    width: 40vh;
+    height: 40vh;
+}
+.imagesradius1{
+    border-radius: 30px;
+}
+.imagesradius{
+    border-radius: 130px;
+}
+.textsize{
+    font-size: 11px;
+    color: black;
+}
+.paddd{
+    padding: 0px 0px;
+    margin-right: 145px;
+}
+.paddd1{
+    padding: 0px 0px;
+    margin-left: 145px;
+}

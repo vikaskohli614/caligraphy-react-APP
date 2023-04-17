@@ -1,0 +1,778 @@
+.person_img {
+  height: 44vh;
+  width: 42vh;
+  border-radius: 130px;
+  position: relative;
+}
+
+.person_img:hover {
+  opacity: 0.5;
+}
+
+.name1 p {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  color: #393d72;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  left: 24px;
+}
+
+.name1 p:hover {
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.name1 h4 {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  line-height: 1.2em;
+  color: #393d72;
+  font-weight: 400;
+  padding-bottom: 25px;
+  left: 20px;
+}
+
+.name1 h4:hover {
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+.head1 h2 {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #393d72;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.head1 h2::before {
+  position: absolute;
+  content: '';
+  left: 90vh;
+  bottom: 0;
+  height: 6px;
+  width: 58px;
+  background-image: url(../images/line_2.png);
+  background-position: center;
+  animation: slide 10s linear infinite;
+  -webkit-animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -200px 0;
+  }
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #131313;
+  color: white;
+  font-size: 16px;
+  height: 44vh;
+  width: 42vh;
+  border-radius: 130px;
+  position: relative;
+  left: 67px;
+  opacity: 0.7;
+}
+
+.insta1 {
+  width: 50px;
+  padding: 100px 0px;
+  top: 10px;
+}
+
+.insta1 {
+  transition: transform .7s ease-in-out;
+}
+
+.insta1:hover {
+  transform: rotate(360deg);
+}
+
+@media screen and (max-width:1200px) {
+  .person_img {
+    height: 36vh;
+    width: 34vh;
+    border-radius: 130px;
+    position: relative;
+  }
+
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 36vh;
+    width: 34vh;
+    border-radius: 130px;
+    position: relative;
+    left: 56px;
+    opacity: 0.7;
+  }
+
+  .insta1 {
+    width: 40px;
+    padding: 85px 0px;
+    top: 10px;
+  }
+  
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 76vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 24px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 16px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 20px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 20px;
+  }
+
+}
+@media screen and (max-width:990px) {
+  .person_img {
+    height: 24vh;
+    width: 23vh;
+    border-radius: 130px;
+    position: relative;
+  }
+
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 24vh;
+    width: 23vh;
+    border-radius: 130px;
+    position: relative;
+    left: 39px;
+    opacity: 0.7;
+  }
+
+  .insta1 {
+    width: 30px;
+    padding: 55px 0px;
+    top: 10px;
+  }
+
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 50vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 6px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 14px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 6px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:768px){
+  .person_img {
+    height: 22vh;
+    width: 21vh;
+    border-radius: 130px;
+    position: relative;
+  }
+
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 22vh;
+    width: 21vh;
+    border-radius: 130px;
+    position: relative;
+    left: 45px;
+    opacity: 0.7;
+  }
+
+  .insta1 {
+    width: 30px;
+    padding: 55px 0px;
+    top: 10px;
+  }
+
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 38vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 26px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 12px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 26px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:576px){
+  .person_img {
+  height: 35vh;
+  width: 37vh;
+  border-radius: 130px;
+  position: relative;
+}
+.leftrigth{
+  left: 140px;
+}
+.text {
+  background-color: #131313;
+  color: white;
+  font-size: 16px;
+  height: 35vh;
+  width: 37vh;
+  border-radius: 130px;
+  position: relative;
+  left: 0px;
+  opacity: 0.7;
+}
+
+.insta1 {
+  width: 30px;
+  padding: 83px 0px;
+  top: 10px;
+}
+
+.head1 h2 {
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #393d72;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.head1 h2::before {
+  position: absolute;
+  content: '';
+  left: 44vh;
+  bottom: 0;
+  height: 6px;
+  width: 58px;
+  background-image: url(../images/line_2.png);
+  background-position: center;
+  animation: slide 10s linear infinite;
+  -webkit-animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -200px 0;
+  }
+}
+.name1 p {
+  position: relative;
+  display: block;
+  font-size: 10px;
+  color: #393d72;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  left: 16px;
+}
+
+.name1 p:hover {
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+.name1 h4 {
+  position: relative;
+  display: block;
+  font-size: 12px;
+  line-height: 1.2em;
+  color: #393d72;
+  font-weight: 400;
+  padding-bottom: 25px;
+  left: 16px;
+}
+
+.name1 h4:hover {
+  transition: 0.5s;
+  font-size: 18px;
+}}
+
+@media screen and (max-width:440px){
+  .person_img {
+    height: 33vh;
+    width: 35vh;
+    border-radius: 130px;
+    position: relative;
+  }
+  .leftrigth{
+    left: 95px;
+  }
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 33vh;
+    width: 35vh;
+    border-radius: 130px;
+    position: relative;
+    left: 9px;
+    opacity: 0.7;
+  }
+  
+  .insta1 {
+    width: 30px;
+    padding: 83px 0px;
+    top: 10px;
+  }
+  
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 30vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+  
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 16px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 12px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 16px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:350px){
+  .person_img {
+    height: 33vh;
+    width: 35vh;
+    border-radius: 130px;
+    position: relative;
+  }
+  .leftrigth{
+    left: 45px;
+  }
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 33vh;
+    width: 35vh;
+    border-radius: 130px;
+    position: relative;
+    left: 30px;
+    opacity: 0.7;
+  }
+  
+  .insta1 {
+    width: 30px;
+    padding: 83px 0px;
+    top: 10px;
+  }
+  
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 24vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+  
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 16px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 12px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 16px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:360px),
+screen and (height: 800px) {
+  .person_img {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 130px;
+    position: relative;
+  }
+  .leftrigth{
+    left: 45px;
+  }
+  .text {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 25vh;
+    width: 25vh;
+    border-radius: 130px;
+    position: relative;
+    left: 30px;
+    opacity: 0.7;
+  }
+  
+  .insta1 {
+    width: 30px;
+    padding: 83px 0px;
+    top: 10px;
+  }
+  
+  .head1 h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .head1 h2::before {
+    position: absolute;
+    content: '';
+    left: 16vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+    animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    from {
+      background-position: 0 0;
+    }
+  
+    to {
+      background-position: -200px 0;
+    }
+  }
+  .name1 p {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    left: 16px;
+  }
+  
+  .name1 p:hover {
+    transition: 0.5s;
+    font-size: 12px;
+  }
+  
+  .name1 h4 {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+    left: 16px;
+  }
+  
+  .name1 h4:hover {
+    transition: 0.5s;
+    font-size: 18px;
+  }
+}

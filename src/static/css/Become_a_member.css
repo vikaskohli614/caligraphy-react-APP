@@ -1,0 +1,287 @@
+.a {
+    width: 100%;
+    height: 700px;
+    background-color: #1b202b;
+    opacity: 0.9;
+    position: absolute;
+    right: 0px;
+  }
+  .b {
+    width: 100%;
+    height: 700px;
+  }
+  .c {
+    position: relative;
+    top: 200px;
+    margin-left: -550px;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .subscribebutton {
+    height: 70px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left: -285px;
+    color: white;
+    font-weight: 500;
+  }
+  .subscribebutton:hover
+  {
+    background-color: white;
+    color: black;
+  }
+  .part2 {
+    background-color: #1b202b;
+    height: 550px;
+  }
+  
+  .tv {
+    width: 41%;
+    height: auto;
+    position: relative;
+    top: 100px;
+    left: -325px;
+  }
+  
+  .tvside {
+    position: relative;
+    bottom: 310px;
+    color: white;
+    margin-left: 400px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  .part2 ul {
+    position: relative;
+    bottom: 300px;
+    margin-left: 835px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .tvbutton {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    bottom: 220px;
+    left: 850px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .dot {
+    position: relative;
+    top: 36px;
+    left: 230px;
+    color: red;
+  }
+  
+  @media(max-width:1300px) {
+    .tvside {
+      bottom: 260px;
+      margin-left: 730px;
+    }
+  
+    .part2 ul {
+      bottom: 250px;
+      margin-left: 703px;
+    }
+  }
+  
+  @media(max-width:1200px) {
+    .tvside {
+      bottom: 210px;
+      margin-left: 680px;
+    }
+  
+    .part2 ul {
+      bottom: 200px;
+      margin-left: 653px;
+    }
+  }
+  
+  @media(max-width:930px) {
+    .tvside {
+      bottom: 160px;
+      margin-left: 630px;
+    }
+  
+    .part2 ul {
+      bottom: 150px;
+      margin-left: 603px;
+    }
+  }
+  
+  @media(max-width:880px) {
+    .tvside {
+      bottom: 140px;
+      margin-left: 530px;
+      font-size: 25px;
+    }
+  
+    .part2 ul {
+      bottom: 150px;
+      margin-left: 500px;
+      font-size: 15px;
+    }
+    .c {
+      position: relative;
+      top: 200px;
+      margin-left: 10px;
+      z-index: 1;
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+  }
+  .subscribebutton {
+    height: 70px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left: 4px;
+    color: white;
+    font-weight: 500;
+}
+  }
+  
+  @media(max-width:740px) {
+    .tvside {
+      bottom: 100px;
+      margin-left: 480px;
+      font-size: 20px;
+    }
+  
+    .part2 ul {
+      bottom: 100px;
+      margin-left: 450px;
+      font-size: 10px;
+    }
+  }
+  
+  @media(max-width:610px) {
+    .tvside {
+      bottom: 60px;
+      margin-left: 430px;
+      font-size: 20px;
+    }
+  
+    .part2 ul {
+      bottom: 60px;
+      margin-left: 400px;
+      font-size: 10px;
+    }
+  }
+  
+  @media(max-width:600px) {
+    .tv {
+      left: -166px;
+    }
+  
+    .tvside {
+      bottom: 60px;
+      margin-left: 260px;
+      font-size: 20px;
+    }
+  
+    .part2 ul {
+      bottom: 60px;
+      margin-left: 230px;
+      font-size: 10px;
+    }
+    .c {
+      position: relative;
+      top: 200px;
+      margin-left: 10px;
+      z-index: 1;
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+  }
+  .subscribebutton {
+    height: 70px;
+    width: 200px;
+    position: relative;
+    top: 200px;
+    left: 4px;
+    color: white;
+    font-weight: 500;
+}
+  }
+  
+  @media(max-width:540px) {
+    .c
+    {
+      margin-left: 25px;
+    }
+    .subscribebutton{
+      left: 10px;
+    }
+    .part2 {
+      background-color: #1b202b;
+      height: 350px;
+  }
+  .c {
+    position: relative;
+    top: 200px;
+    margin-left: 10px;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+  }
+  
+  @media(max-width:430px) {
+    .tv {
+      left: -120px;
+    }
+    .part2 {
+      background-color: #1b202b;
+      height: 300px;
+  }
+    .tvside {
+      bottom: 10px;
+      margin-left: 200px;
+      font-size: 20px;
+    }
+  
+    .part2 ul {
+      bottom: 10px;
+      margin-left: 170px;
+      font-size: 10px;
+    }
+  }
+  
+  @media(max-width:560px) {
+    .c
+    {
+      margin-left: 25px;
+      font-size: 25px;
+    }
+    .subscribebutton{
+      left: 10px;
+    }
+    
+  }
+  @media(max-width:350px) {
+    .tv {
+      left: -100px;
+    }
+  
+    .tvside {
+      bottom: 0px;
+      margin-left: 150px;
+      font-size: 20px;
+    }
+  
+    .part2 ul {
+      bottom: 0px;
+      margin-left: 120px;
+      font-size: 10px;
+    }
+  }

@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
+/* *{
+    font-family: 'Dancing Script', cursive;
+}  */
+/* .background {
+    background-image: url('../images/leaf.png');
+    background-repeat: no-repeat;
+
+}*/
+/* .navfont{
+    font-family: 'Dancing Script', cursive;
+} */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+.dropdown-item a{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navlogo{
+    width: 28vh;
+    height: 12vh;
+    margin-left: 50px;
+}
+.navpadd{
+    padding: 0rem 16rem;
+}
+
+@media screen and (max-width:1200px){
+    .navpadd{
+        padding: 0rem 15rem;
+    }
+}
+
+@media screen and (max-width:1040px){
+    .navpadd{
+        padding: 0rem 8rem;
+    }
+}
+
+@media screen and (max-width:990px){
+    .navlogo{
+        width: 24vh;
+        height: 10vh;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navlogo{
+        width: 26vh;
+        height: 11vh;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .navlogo{
+        width: 22vh;
+        height: 10vh;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width:440px){
+    .navlogo{
+        width: 26vh;
+        height: 11vh;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:350px){
+    .navlogo{
+        width: 19vh;
+        height: 9vh;
+        margin-left: 10px;
+    }
+    .navpadd{
+        padding: 0rem 5rem;
+    }
+}
+
+@media screen and (width: 360px), 
+       screen and (height: 800px){
+        .navlogo{
+            width: 14vh;
+            height: 7vh;
+            margin-left: 10px;
+        }
+        .navpadd{
+            padding: 0rem 5rem;
+        }
+       }

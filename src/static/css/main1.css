@@ -1,0 +1,1706 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.pagebackground {
+    background-image: url('../images/leaf.png');
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    max-height: none;
+    position: relative;
+
+}
+
+.perent {
+    position: relative;
+    display: flex;
+}
+/* .red {
+    position: absolute;
+    left: 360px;
+    top: 9px;
+}
+
+.landing {
+    height: 85vh;
+    width: 100vh;
+} */
+.red {
+    position: absolute;
+    left: 495px;
+    top: 120px;
+}
+
+.landing {
+    height: 50vh;
+    width: 65vh;
+    /* min-width: auto; */
+}
+
+.green {
+    position: absolute;
+    top: 30px;
+    left: 110px;
+
+}
+
+.landing1 {
+    height: 13vh;
+    /* width: 15vh; */
+    min-width: auto;
+    border-radius: 10px;
+}
+
+.blue {
+    position: absolute;
+    top: 115px;
+    left: 100px;
+
+}
+
+.landing2 {
+    height: 25vh;
+    width: 35vh;
+    border-radius: 10px;
+}
+
+.yello {
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+
+.landing3 {
+    height: 33vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+
+.orange {
+    position: absolute;
+    top: 70px;
+    left: 330px;
+    z-index: -1;
+}
+
+.landing4 {
+    height: 25vh;
+    width: 35vh;
+    border-radius: 10px;
+}
+
+.pink {
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    z-index: -1;
+}
+
+.landing5 {
+    height: 35vh;
+    width: 30vh;
+    border-radius: 10px;
+}
+
+.white {
+    left: 410px;
+    top: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.landing6 {
+    height: 55vh;
+    width: 45vh;
+    border-radius: 10px;
+}
+
+.grey {
+    position: absolute;
+    z-index: -2;
+    left: 580px;
+    top: 170px;
+}
+
+.landing7 {
+    height: 35vh;
+    width: 40vh;
+    border-radius: 10px;
+}
+
+.skyblue {
+    position: absolute;
+    z-index: -1;
+    left: 840px;
+    top: 25px;
+}
+
+.landing8 {
+    height: 20vh;
+    width: 30vh;
+    border-radius: 10px;
+}
+
+.purple {
+    position: absolute;
+    z-index: -1;
+    left: 880px;
+    top: 170px;
+}
+
+.brown {
+    position: absolute;
+    z-index: -1;
+    left: 860px;
+    top: 260px;
+}
+
+.landing11 {
+    height: 39vh;
+    width: 39vh;
+    border-radius: 10px;
+
+}
+
+.black {
+    position: absolute;
+    z-index: -1;
+    left: 1030px;
+    top: 4px;
+}
+
+.puce {
+    position: absolute;
+    z-index: -1;
+    left: 1050px;
+    top: 250px;
+}
+
+.logo_name {
+    position: absolute;
+    display: block;
+    overflow: visible;
+    z-index: 1;
+}
+
+.landing0 {
+    position: relative;
+    font-family: Roboto;
+    line-height: 43px;
+    font-size: 45px;
+    left: 450px;
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+@media screen and (max-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: "Asap", sans-serif; */
+        /* background-color: red; */
+    }
+
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 80vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 470px;
+        top: 120px;
+    }
+
+    .landing {
+        height: 50vh;
+        width: 60vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 30px;
+        left: 110px;
+
+    }
+
+    .landing1 {
+        height: 12vh;
+        min-width: auto;
+    }
+
+    .blue {
+        position: absolute;
+        top: 115px;
+        left: 90px;
+
+    }
+
+    .landing2 {
+        height: 23vh;
+        width: 33vh;
+
+    }
+
+    .yello {
+        position: absolute;
+        top: 260px;
+        left: 40px;
+    }
+
+    .landing3 {
+        height: 33vh;
+        width: 46vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 70px;
+        left: 320px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 215px;
+        left: 330px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 33vh;
+        width: 27vh;
+
+    }
+
+    .white {
+        left: 380px;
+        top: 90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 55vh;
+        width: 45vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 580px;
+        top: 170px;
+    }
+
+    .landing7 {
+        height: 35vh;
+        width: 40vh
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 770px;
+        top: 25px;
+    }
+
+    .landing8 {
+        height: 20vh;
+        width: 30vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 830px;
+        top: 165px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 830px;
+        top: 240px;
+    }
+
+    .landing11 {
+        height: 39vh;
+        width: 38vh;
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 975px;
+        top: 4px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 1030px;
+        top: 250px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        font-family: 'Dancing Script', cursive;
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 45px;
+        left: 420px;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Asap", sans-serif;
+        /* background-color: red; */
+    }
+
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 400px;
+        top: 120px;
+    }
+
+    .landing {
+        height: 50vh;
+        width: 60vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 30px;
+        left: 95px;
+
+    }
+
+    .landing1 {
+        height: 11vh;
+        min-width: auto;
+    }
+
+    .blue {
+        position: absolute;
+        top: 110px;
+        left: 75px;
+
+    }
+
+    .landing2 {
+        height: 22vh;
+        width: 33vh;
+
+    }
+
+    .yello {
+        position: absolute;
+        top: 255px;
+        left: 30px;
+    }
+
+    .landing3 {
+        height: 31vh;
+        width: 44vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 65px;
+        left: 300px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 210px;
+        left: 310px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 33vh;
+        width: 27vh;
+
+    }
+
+    .white {
+        left: 345px;
+        top: 80px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 55vh;
+        width: 45vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 500px;
+        top: 165px;
+    }
+
+    .landing7 {
+        height: 33vh;
+        width: 35vh
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 670px;
+        top: 25px;
+    }
+
+    .landing8 {
+        height: 17vh;
+        width: 24vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 710px;
+        top: 160px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 710px;
+        top: 230px;
+    }
+
+    .landing11 {
+        height: 37vh;
+        width: 37vh;
+
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 820px;
+        top: 4px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 875px;
+        top: 245px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 45px;
+        left: 390px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (max-width:990px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: "Asap", sans-serif; */
+        /* background-color: red; */
+    }
+
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 70vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 340px;
+        top: 120px;
+    }
+
+    .landing {
+        height: 45vh;
+        width: 60vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 30px;
+        left: 60px;
+
+    }
+
+    .landing1 {
+        height: 10vh;
+        min-width: auto;
+    }
+
+    .blue {
+        position: absolute;
+        top: 110px;
+        left: 40px;
+
+    }
+
+    .landing2 {
+        height: 21vh;
+        width: 31vh;
+
+    }
+
+    .yello {
+        position: absolute;
+        top: 240px;
+        left: 8px;
+    }
+
+    .landing3 {
+        height: 30vh;
+        width: 45vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 65px;
+        left: 255px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 210px;
+        left: 280px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 33vh;
+        width: 27vh;
+
+    }
+
+    .white {
+        left: 290px;
+        top: 80px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 55vh;
+        width: 45vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 440px;
+        top: 165px;
+    }
+
+    .landing7 {
+        height: 33vh;
+        width: 35vh
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 615px;
+        top: 25px;
+    }
+
+    .landing8 {
+        height: 17vh;
+        width: 24vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 660px;
+        top: 160px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 650px;
+        top: 230px;
+    }
+
+    .landing11 {
+        height: 38vh;
+        width: 38vh;
+
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 760px;
+        top: 4px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 810px;
+        top: 250px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 45px;
+        left: 250px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: "Asap", sans-serif; */
+        /* background-color: red; */
+    }
+
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 50vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 220px;
+        top: 100px;
+    }
+
+    .landing {
+        height: 42vh;
+        width: 55vh;
+
+    }
+
+
+    .green {
+        position: absolute;
+        top: 30px;
+        left: 13px;
+
+    }
+
+    .landing1 {
+        height: 8vh;
+        min-width: auto;
+    }
+
+    .blue {
+        position: absolute;
+        top: 91px;
+        left: 3px;
+
+    }
+
+    .landing2 {
+        height: 18vh;
+        width: 28vh;
+
+    }
+
+    .yello {
+        position: absolute;
+        top: 210px;
+        left: 3px;
+    }
+
+    .landing3 {
+        height: 23vh;
+        width: 29vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 55px;
+        left: 170px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 190px;
+        left: 180px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 26vh;
+        width: 22vh;
+
+    }
+
+    .white {
+        left: 150px;
+        top: 90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 45vh;
+        width: 40vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 290px;
+        top: 165px;
+    }
+
+    .landing7 {
+        height: 30vh;
+        width: 34vh;
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 460px;
+        top: 25px;
+    }
+
+    .landing8 {
+        height: 15vh;
+        width: 20vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 500px;
+        top: 160px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 490px;
+        top: 210px;
+    }
+
+    .landing11 {
+        height: 31vh;
+        width: 31vh;
+
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 580px;
+        top: 10px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 625px;
+        top: 210px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 45px;
+        left: 140px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Asap", sans-serif;
+        background-color: red;
+    } */
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 21vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 180px;
+        top: 55px;
+    }
+
+    .landing {
+        height: 25vh;
+        width: 35vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 27px;
+        left: 5px;
+
+    }
+
+    .landing1 {
+        height: 6vh;
+        min-width: auto;
+        border-radius: 5px;
+    }
+
+    .blue {
+        position: absolute;
+        top: 72px;
+        left: 2px;
+
+    }
+
+    .landing2 {
+        height: 11vh;
+        width: 16vh;
+        
+    }
+
+    .yello {
+        position: absolute;
+        top: 145px;
+        left: 2px;
+    }
+
+    .landing3 {
+        height: 14vh;
+        width: 20vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 125px;
+        left: 122px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 17vh;
+    width: 18vh;
+    }
+
+    .white {
+        left: 165px;
+        top: 90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 23vh;
+        width: 23vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 230px;
+    top: 135px;
+    }
+
+    .landing7 {
+        height: 15vh;
+        width: 17vh;
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 326px;
+    top: 23px;
+    }
+
+    .landing8 {
+        height: 10vh;
+        width: 13vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 350px;
+        top: 83px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 335px;
+    top: 122px;
+    }
+
+    .landing11 {
+        height: 17vh;
+    width: 25vh;
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 420px;
+        top: 20px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 450px;
+        top: 125px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 22px;
+        left: 80px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+@media screen and (max-width:440px) {
+
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Asap", sans-serif;
+        background-color: red;
+    } */
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 21vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 120px;
+        top: 55px;
+    }
+
+    .landing {
+        height: 25vh;
+        width: 35vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 35px;
+        left: 5px;
+
+    }
+
+    .landing1 {
+        height: 3vh;
+        min-width: auto;
+        border-radius: 3px;
+    }
+
+    .blue {
+        position: absolute;
+        top: 68px;
+        left: 0px;
+
+    }
+
+    .landing2 {
+        height: 9vh;
+        width: 12vh;
+        
+    }
+
+    .yello {
+        position: absolute;
+        top: 135px;
+        left: -20px;
+    }
+
+    .landing3 {
+        height: 12vh;
+        width: 18vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 50px;
+        left: 75px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 120px;
+        left: 85px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 15vh;
+        width: 12vh;
+
+    }
+
+    .white {
+        left: 100px;
+        top: 90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 22vh;
+        width: 20vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 166px;
+        top: 120px;
+    }
+
+    .landing7 {
+        height: 15vh;
+        width: 17vh;
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 250px;
+        top: 31px;
+    }
+
+    .landing8 {
+        height: 10vh;
+        width: 13vh;
+        border-radius: 10px;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 265px;
+        top: 86px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 270px;
+        top: 120px;
+    }
+
+    .landing11 {
+        height: 16vh;
+        width: 18vh;
+
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 330px;
+        top: 20px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 350px;
+        top: 125px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 22px;
+        left: 80px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (max-width:350px) {
+
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Asap", sans-serif;
+        background-color: red;
+    } */
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 20vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 80px;
+        top: 55px;
+    }
+
+    .landing {
+        height: 25vh;
+        width: 35vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 35px;
+        left: 3px;
+
+    }
+
+    .landing1 {
+        height: 3vh;
+        min-width: auto;
+        border-radius: 3px;
+    }
+
+    .blue {
+        position: absolute;
+        top: 68px;
+        left: 2px;
+
+    }
+
+    .landing2 {
+        height: 9vh;
+    width: 12vh;
+    }
+
+    .yello {
+        position: absolute;
+        top: 130px;
+        left: 2px;
+    }
+
+    .landing3 {
+        height: 11vh;
+    width: 14vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 48px;
+        left: 72px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+        height: 23vh;
+        width: 33vh;
+    
+    } */
+    .pink {
+        position: absolute;
+        top: 114px;
+        left: 85px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 14vh;
+        width: 10vh;
+
+    }
+
+    .white {
+        left: 80px;
+        top: 90px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 22vh;
+        width: 19vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 145px;
+        top: 120px;
+    }
+
+    .landing7 {
+        height: 13vh;
+        width: 14vh;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 230px;
+        top: 85px;
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 190px;
+        top: 31px;
+    }
+
+    .landing8 {
+        height: 9vh;
+    width: 13vh;
+        border-radius: 10px;
+    }
+
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 225px;
+        top: 120px;
+    }
+
+    .landing11 {
+        height: 14vh;
+    width: 14vh;
+
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 265px;
+        top: 20px;
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 285px;
+        top: 125px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 22px;
+        left: 80px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}
+
+@media screen and (width: 360px),
+screen and (height: 800px) {
+
+    /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Asap", sans-serif;
+            background-color: red;
+        } */
+    .pagebackground {
+        background-image: url('../images/leaf.png');
+        background-repeat: no-repeat;
+        min-height: 20vh;
+        max-height: none;
+        position: relative;
+
+    }
+
+    .perent {
+        position: relative;
+        display: flex;
+    }
+
+    .red {
+        position: absolute;
+        left: 80px;
+        top: 55px;
+    }
+
+    .landing {
+        height: 15vh;
+        width: 20vh;
+
+    }
+
+    .green {
+        position: absolute;
+        top: 35px;
+        left: 3px;
+
+    }
+
+    .landing1 {
+        height: 3vh;
+        min-width: auto;
+        border-radius: 2px;
+    }
+
+    .blue {
+        position: absolute;
+        top: 80px;
+        left: 2px;
+
+    }
+
+    .landing2 {
+        height: 5vh;
+        width: 7vh;
+    }
+
+    .yello {
+        position: absolute;
+        top: 130px;
+        left: 2px;
+    }
+
+    .landing3 {
+        height: 6vh;
+        width: 7vh;
+
+    }
+
+    .orange {
+        position: absolute;
+        top: 46px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    /* .landing4 {
+            height: 23vh;
+            width: 33vh;
+        
+        } */
+    .pink {
+        position: absolute;
+        top: 100px;
+        left: 64px;
+        z-index: -1;
+    }
+
+    .landing5 {
+        height: 10vh;
+    width: 8vh;
+
+    }
+
+    .white {
+        left: 60px;
+        top: 70px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .landing6 {
+        height: 17vh;
+        width: 15vh;
+
+    }
+
+    .grey {
+        position: absolute;
+        z-index: -2;
+        left: 127px;
+        top: 120px;
+    }
+
+    .landing7 {
+        height: 9vh;
+        width: 10vh;
+    }
+
+    .purple {
+        position: absolute;
+        z-index: -1;
+        left: 195px;
+        top: 86px;
+    }
+
+    .skyblue {
+        position: absolute;
+        z-index: -1;
+        left: 180px;
+        top: 31px;
+    }
+
+    .landing8 {
+        height: 7vh;
+    width: 8vh;
+        border-radius: 10px;
+    }
+    .brown {
+        position: absolute;
+        z-index: -1;
+        left: 214px;
+        top: 120px;
+    }
+
+    .landing11 {
+        height: 10vh;
+        width: 12vh;
+    }
+
+    .black {
+        position: absolute;
+        z-index: -1;
+        left: 255px;
+        top: 20px;
+    }
+
+    .landing12 {
+        height: 9vh;
+        width: 8vh;
+
+    }
+
+    .puce {
+        position: absolute;
+        z-index: -1;
+        left: 284px;
+        top: 120px;
+    }
+
+    .logo_name {
+        position: absolute;
+        display: block;
+        overflow: visible;
+        z-index: 1;
+    }
+
+    .landing0 {
+        position: relative;
+        font-family: Roboto;
+        line-height: 43px;
+        font-size: 22px;
+        left: 80px;
+        z-index: 1;
+        font-family: 'Dancing Script', cursive;
+    }
+}

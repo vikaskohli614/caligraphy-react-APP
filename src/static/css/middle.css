@@ -1,0 +1,1197 @@
+.middle_background {
+    background-color: rgb(50, 48, 49);
+    z-index: -2;
+}
+.backleaf{
+    top: 0vh;
+    right: 108vh;
+}
+.mar_t {
+    margin-top: 5rem;
+}
+
+.middle1 {
+    height: 65vh;
+    margin-top: 30vh;
+}
+
+.bg_button {
+    position: relative;
+    top: 35vh;
+    left: 0vh;
+}
+
+.bg_button1 {
+    position: relative;
+    top: 15vh;
+    left: 0vh;
+}
+
+.bg_button2 {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+}
+
+#parent {
+    position: relative;
+}
+
+.backg1 {
+    width: 30vh;
+}
+.backg2 {
+    position: relative;
+    left: 170vh;
+    top: 20vh;
+}
+.mango {
+    width: 88vh;
+    height: 80vh;
+    position: absolute;
+}
+
+.mango1 {
+    width: 100vh;
+    height: 80vh;
+    position: absolute;
+}
+
+.middle_images {
+    height: 50vh;
+    width: 85vh;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    background-color: aliceblue;
+}
+.middle_images:hover {
+    position: relative;
+    /* height: 60vh; */
+    margin-top: -2vh;
+    transition: 0.7s;
+    box-shadow: 2px 2px 1px rgb(168, 168, 168);
+}
+.middle_images1 {
+    height: 50vh;
+    width: 85vh;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+}
+
+.middle_images1:hover {
+    position: relative;
+    /* height: 60vh; */
+    margin-top: -2vh;
+    transition: 0.7s;
+    box-shadow: 2px 2px 1px rgb(168, 168, 168);
+}
+.middle_images h5{
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-weight: 800;
+    margin-top: 25px;
+}
+.middle_images p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: medium;
+    margin-top: 40px;
+    text-align: center;
+}
+.middle_images1left{
+    margin-left: 50px;
+    
+}
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+    z-index: 1;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.middle_float1 {
+    position: absolute;
+    margin-top: 30vh;
+    /* margin-left: 15vh; */
+    left: 13vh;
+
+}
+
+.hang_image {
+    height: 34vh;
+    width: 17vh;
+    border-radius: 5px;
+    transition: all 2.5sec ease-in-out;
+}
+
+.middle_float2 {
+    position: absolute;
+    margin-top: 30vh;
+    left: 190vh;
+}
+
+/* .next_text{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 33px;
+
+}
+.eltdf-ii-text-holder{
+    background: 0 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.eltdf-ii-text-holder-inner{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 15px 48px 15px 26px;
+}
+.eltdf-btn-background{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    -webkit-transition: width .2s ease-in-out;
+    -o-transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+.eltdf-ii-text{
+    display: inline-block;
+    position: relative;
+    color: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 400;
+    z-index: 999;
+    letter-spacing: .2em;
+}
+.eltdf-ii-text::after{
+    content: "\f111";
+    position: absolute;
+    right: -14px;
+    top: 51%;
+    -webkit-transform: translateY(-51%);
+    -ms-transform: translateY(-51%);
+    transform: translateY(-51%);
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    font-size: 5px;
+    color: #050505;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+.eltdf-btn-text-plus{
+    position: absolute;
+    right: -14px;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+} */
+
+@media screen and (max-width:1200px) {
+    
+
+    .mar_t {
+        margin-top: 5rem;
+    }
+
+    .middle1 {
+        height: 65vh;
+        margin-top: 25vh;
+    }
+
+    .backg1 {
+        width: 28vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 170vh;
+        top: 20vh;
+    }
+    .backleaf{
+        top: 0vh;
+        right: 100vh;
+    }
+    .bg_button {
+        position: relative;
+        top: 35vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 90vh;
+        height: 85vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 95vh;
+        height: 75vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 45vh;
+        width: 75vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 25px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: medium;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 30vh;
+        /* margin-left: 15vh; */
+        left: 17vh;
+
+    }
+
+    .hang_image {
+        height: 34vh;
+        width: 17vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 30vh;
+        left: 175vh;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    
+    .backleaf{
+        top: 0vh;
+        right: 86vh;
+    }
+    .mar_t {
+        margin-top: 5rem;
+    }
+
+    .middle1 {
+        height: 70vh;
+        margin-top: 30vh;
+    }
+
+    .backg1 {
+        width: 25vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 145vh;
+        top: 20vh;
+    }
+    .bg_button {
+        position: relative;
+        top: 35vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 85vh;
+        height: 80vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 88vh;
+        height: 75vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 45vh;
+        width: 75vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 25px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: medium;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 30vh;
+        left: 5vh;
+
+    }
+
+    .hang_image {
+        height: 30vh;
+        width: 15vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 30vh;
+        left: 160vh;
+    }
+}
+
+@media screen and (max-width:990px) {
+    
+    .backleaf{
+        top: 0vh;
+        right: 83vh;
+    }
+    .mar_t {
+        margin-top: 5rem;
+    }
+
+    .backg1 {
+        width: 25vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 140vh;
+        top: 20vh;
+    }
+
+    .middle1 {
+        height: 60vh;
+        margin-top: 30vh;
+    }
+
+    .bg_button {
+        position: relative;
+        top: 35vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 80vh;
+        height: 75vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 83vh;
+        height: 70vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 40vh;
+        width: 70vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 25px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 30vh;
+        left: 5vh;
+
+    }
+
+    .hang_image {
+        height: 25vh;
+        width: 13vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 30vh;
+        left: 152vh;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .backleaf{
+        top: 0vh;
+        right: 65vh;
+    }
+    .mar_t {
+        margin-top: 7rem;
+    }
+
+    .middle1 {
+        height: 40vh;
+        margin-top: 30vh;
+    }
+
+    .bg_button {
+        position: relative;
+        top: 35vh;
+        left: 0vh;
+    }
+
+    .backg1 {
+        width: 20vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 107vh;
+        top: 20vh;
+    }
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 65vh;
+        height: 60vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 64vh;
+        height: 60vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 30vh;
+        width: 55vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 10px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 20vh;
+        left: 4vh;
+
+    }
+
+    .hang_image {
+        height: 20vh;
+        width: 10vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 20vh;
+        left: 120vh;
+    }
+}
+
+@media screen and (max-width:576px) {
+    
+    .backleaf{
+        top: 0vh;
+        right: 48vh;
+    }
+    .mar_t {
+        margin-top: 7rem;
+    }
+
+    .middle1 {
+        height: 40vh;
+        margin-top: 20vh;
+    }
+
+    .backg1 {
+        width: 15vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 65vh;
+        top: 17vh;
+    }
+    .bg_button {
+        position: relative;
+        top: 20vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 56vh;
+    height: 54vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 48vh;
+    height: 44vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 40vh;
+    width: 80vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 15px;
+        margin-top: 17px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 30vh;
+    left: 12vh;
+    }
+
+    .hang_image {
+        height: 19vh;
+    width: 10vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 30vh;
+    left: 78vh;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .backleaf{
+        top: 0vh;
+        right: 35vh;
+    }
+    .mar_t {
+        margin-top: 7rem;
+    }
+
+    .middle1 {
+        height: 40vh;
+        margin-top: 20vh;
+    }
+
+    .backg1 {
+        width: 15vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 56vh;
+        top: 17vh;
+    }
+    .bg_button {
+        position: relative;
+        top: 20vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 15vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 55vh;
+        height: 50vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 36vh;
+        height: 40vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 35vh;
+        width: 60vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 12px;
+        margin-top: 17px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 25vh;
+        left: 8vh;
+
+    }
+
+    .hang_image {
+        height: 18vh;
+        width: 9vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 25vh;
+        left: 58vh;
+    }
+}
+
+@media (max-width:350px) {
+    
+    .backleaf{
+        top: 0vh;
+        right: 28vh;
+    }
+    .mar_t {
+        margin-top: 7rem;
+    }
+
+    .middle1 {
+        height: 40vh;
+        margin-top: 20vh;
+    }
+
+    .backg1 {
+        width: 9vh;
+    }
+    .backg2 {
+        position: relative;
+        left: 50vh;
+        top: 8vh;
+    }
+    .bg_button {
+        position: relative;
+        top: 23vh;
+        left: 0vh;
+    }
+
+    .bg_button1 {
+        position: relative;
+        top: 0vh;
+        left: 0vh;
+    }
+
+    .bg_button2 {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+    }
+
+    #parent {
+        position: relative;
+    }
+
+    .mango {
+        width: 40vh;
+        height: 40vh;
+        position: absolute;
+    }
+
+    .mango1 {
+        width: 29vh;
+        height: 27vh;
+        position: absolute;
+    }
+
+    .middle_images {
+        height: 30vh;
+        width: 48vh;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .middle_images:hover {
+        position: relative;
+        /* height: 60vh; */
+        margin-top: -2vh;
+        transition: 0.7s;
+        box-shadow: 2px 2px 1px rgb(168, 168, 168);
+    }
+    .middle_images h5{
+        font-family: 'Dancing Script', cursive;
+        /* font-family: 'IBM Plex Serif', serif; */
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .middle_images p{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 10px;
+    margin-top: 10px;
+        text-align: center;
+    }
+    .middle_images1left{
+        margin-left: 50px;
+        
+    }
+    .reveal {
+        position: relative;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 1s all ease;
+        z-index: 1;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .middle_float1 {
+        position: absolute;
+        margin-top: 23vh;
+        left: 6vh;
+
+    }
+
+    .hang_image {
+        height: 14vh;
+        width: 7vh;
+        border-radius: 5px;
+        transition: all 2.5sec ease-in-out;
+    }
+
+    .middle_float2 {
+        position: absolute;
+        margin-top: 22vh;
+        left: 47vh;
+    }
+}
+@media screen and (width: 360px), 
+       screen and (height: 800px) {
+        .backleaf{
+            top: 0vh;
+            right: 21vh;
+        }
+        .mar_t {
+            margin-top: 5rem;
+        }
+    
+        .middle1 {
+            height: 33vh;
+            margin-top: 10vh;
+        }
+    
+        .backg1 {
+            width: 9vh;
+        }
+        .backg2 {
+            position: relative;
+            left: 30vh;
+            top: 7vh;
+        }
+    
+        .bg_button {
+            position: relative;
+            top: 9vh;
+            left: 0vh;
+        }
+    
+        .bg_button1 {
+            position: relative;
+            top: 7vh;
+            left: 0vh;
+        }
+    
+        .bg_button2 {
+            width: 30vh;
+            height: 30vh;
+            position: absolute;
+        }
+    
+        #parent {
+            position: relative;
+        }
+    
+        .mango {
+            width: 30vh;
+            height: 30vh;
+            position: absolute;
+        }
+    
+        .mango1 {
+            width: 21vh;
+            height: 21vh;
+            position: absolute;
+        }
+    
+        .middle_images {
+            height: 24vh;
+            width: 35vh;
+            border-radius: 20px;
+            position: relative;
+            z-index: 1;
+        }
+    
+        .middle_images:hover {
+            position: relative;
+            /* height: 60vh; */
+            margin-top: -2vh;
+            transition: 0.7s;
+            box-shadow: 2px 2px 1px rgb(168, 168, 168);
+        }
+        .middle_images h5{
+            font-family: 'Dancing Script', cursive;
+            /* font-family: 'IBM Plex Serif', serif; */
+            font-weight: 800;
+            margin-top: 20px;
+        }
+        .middle_images p{
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            font-size: 10px;
+            margin-top: 23px;
+            text-align: center;
+        }
+        .middle_images1left{
+            margin-left: 50px;
+            
+        }
+        .reveal {
+            position: relative;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: 1s all ease;
+            z-index: 1;
+        }
+    
+        .reveal.active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    
+        .middle_float1 {
+            position: absolute;
+            margin-top: 17vh;
+            left: 4vh;
+    
+        }
+    
+        .hang_image {
+            height: 14vh;
+            width: 7vh;
+            border-radius: 5px;
+            transition: all 2.5sec ease-in-out;
+        }
+    
+        .middle_float2 {
+            position: absolute;
+            margin-top: 18vh;
+            left: 34vh;
+        }
+    }

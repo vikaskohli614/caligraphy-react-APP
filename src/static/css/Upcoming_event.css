@@ -1,0 +1,42 @@
+.imagessss{
+    width: 400px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:1040px){
+
+}
+@media screen and (max-width:990px){
+    .imagessss{
+        width: 320px;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .imagessss{
+        width: 240px;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:576px){
+    .imagessss{
+        width: 220px;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width:440px){
+.motabhai{
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width:350px){
+
+}
+@media screen and (width: 360px), 
+       screen and (height: 800px){
+
+       }

@@ -1,0 +1,116 @@
+.person_img1{
+    height: 44vh;
+    width: 42vh;
+    border-radius: 70px;
+    position: relative;
+    left: 43px;
+}
+.person_img:hover {
+    opacity: 0.5;
+  }
+.name p{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.name p:hover{
+    transition: 0.5s ;
+    font-size: 18px;
+}
+.name h4 {
+    position: relative;
+    display: block;
+    font-size: 22px;
+    line-height: 1.2em;
+    color: #393d72;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.name h4:hover{
+    transition: 0.5s ;
+    font-size: 24px;
+}
+.head h2{
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 1.2em;
+    color: #000000;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.head h2::before{
+    position: absolute;
+    content: '';
+    left: 90vh;
+    bottom: 0;
+    height: 6px;
+    width: 58px;
+    background-image: url(../images/line_2.png);
+    background-position: center;
+     animation: slide 10s linear infinite;
+    -webkit-animation: slide 10s linear infinite;
+}
+@keyframes slide{
+    from { background-position: 0 0; }
+    to { background-position: -200px 0; }
+}
+.container1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text1 {
+    background-color: #131313;
+    color: white;
+    font-size: 16px;
+    height: 44vh;
+    width: 42vh;
+    border-radius: 70px;
+    position: relative;
+    left: 88px;
+    opacity: 0.7;
+  }
+  .insta{
+    width: 50px;
+    padding: 100px 0px;
+    top: 10px;
+  }
+  .insta {
+    transition: transform .7s ease-in-out;
+  }
+  .insta:hover {
+    transform: rotate(360deg);
+  }

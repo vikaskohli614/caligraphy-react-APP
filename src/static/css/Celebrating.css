@@ -1,0 +1,33 @@
+.backgoundss{
+    /* background-image: url('../images/background.jpg'); */
+    background-size: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    /* max-height: 200vh; */
+    position: relative;
+
+}
+.imageshigh{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 40px;
+}
+.together{
+    padding: 10px 35px;
+}
+.Headinds{
+    font-weight: 700;
+}
+.sponn1 {
+    background-color: white;
+    height: 85vh;
+    width: 310px;
+    margin-left: 50px;
+    margin-top: 54px;
+    border-radius: 20px;
+    top: 30px;
+  }
+.textfonts{
+    font-size: 19px;
+}
